@@ -480,11 +480,19 @@ footer {
 
 @media (max-width: 480px) {
 	.hero {
-		padding: 3rem 0;
+		padding: 3rem 1rem;
 	}
 
 	.hero h1 {
 		font-size: 2rem;
+	}
+
+	.date {
+		align-items: start;
+	}
+
+	.venue {
+		text-align: start;
 	}
 
 	.domain-grid {
